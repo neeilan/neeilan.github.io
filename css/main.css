@@ -46,6 +46,16 @@ ul.posts li {
     list-style: none;
 }
 
+ul.links { 
+    margin: 20px auto 40px; 
+    font-size: 1em;
+}
+
+ul.links li {
+    list-style: none;
+}
+
+
 .blurb {
     font-size: 0.9em;
 }
