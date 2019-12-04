@@ -8,4 +8,8 @@ title: Neeilan
 	I’m a student at the University of Toronto in Scarborough. <br/>
     	I don’t want to join Medium, so this is where you’ll find anything I decide to write about.
 	</p>
+	
+	 {% for post in site.posts %}
+	    <li><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	 {% endfor %}
 </div><!-- /.blurb -->
