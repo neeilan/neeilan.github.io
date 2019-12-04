@@ -38,8 +38,8 @@ footer {
 }
 
 ul.posts { 
-    margin: 10px auto 40px; 
-    font-size: 1.3em;
+    margin: 10px auto 10px; 
+    font-size: 1.4em;
 }
 
 ul.posts li {
@@ -47,8 +47,8 @@ ul.posts li {
 }
 
 ul.links { 
-    margin: 10px auto 40px; 
-    font-size: 1.3em;
+    margin: 10px auto 10px; 
+    font-size: 1.4em;
 }
 
 ul.links li {
