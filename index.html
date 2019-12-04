@@ -11,8 +11,10 @@ title: Neeilan
 	
 	<p>
 	<h2>Posts</h2>
-	 {% for post in site.posts %}
-	    <li><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	 {% endfor %}
+	<ul class="ul.posts">
+		 {% for post in site.posts %}
+		    <li><span><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+		 {% endfor %}
+	</ul>
 	</p>
 </div><!-- /.blurb -->
